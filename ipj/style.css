@@ -1,0 +1,87 @@
+body {background-color: #574b4b;
+display: flex;
+justify-content: center;
+margin-top: 100px;
+}
+
+.content{
+ 
+    max-width: 600px;
+    padding:20px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;}
+h2 {
+    background-color: #564e4e;
+    color:#ffffff;
+    padding:10px;
+    font-family: arial;
+    text-align: center;
+    border-radius:5px;
+    box-shadow: 4px 4px #e081d5;
+}
+
+.btn{
+    height:50px;
+    width:150px;
+    font-size: 18px;
+    color:#ffffff;
+    background-color: #ee9be4;
+    box-shadow: 4px 4px #4a4be7;
+    padding:5px;
+    border-radius: 5px;}
+
+.card{
+    padding:15px 30px 15px 30px;
+    max-width:500px;
+    max-height:300px;
+    text-align: center;
+    background-color: #f2e6ff;
+    border-radius: 5px;
+    border-top: #ee9be4 5px;
+    margin-top: 20px;
+    } 
+button:focus {outline: none;}
+
+p{
+  font-family:Segoe UI;
+  font-size: 20px;}
+
+img{height:25px;width:25px;}
+
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .content {
+      padding: 10px;
+      margin-top: 100px; /* Adjusted padding for smaller screens */
+  }
+  body {background-color: #574b4b;
+    display: flex;
+    justify-content: center;
+    }
+  h2 {
+      font-size: 20px; /* Adjusted font size for smaller screens */
+      padding: 5px; /* Adjusted padding for smaller screens */
+  }
+
+  .btn {
+      height: 40px; /* Adjusted height for smaller screens */
+      width: 120px; /* Adjusted width for smaller screens */
+      font-size: 16px; /* Adjusted font size for smaller screens */
+  }
+
+  .card {
+      padding: 10px; /* Adjusted padding for smaller screens */
+      margin-top: 10px; /* Adjusted margin top for smaller screens */
+  }
+
+  p {
+      font-size: 16px; /* Adjusted font size for smaller screens */
+  }
+
+  img {
+      height: 20px; /* Adjusted height for smaller screens */
+      width: 20px; /* Adjusted width for smaller screens */
+  }
+}

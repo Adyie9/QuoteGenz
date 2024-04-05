@@ -35,8 +35,6 @@ let quotes = [
   'The art of programming is the skill of controlling complexity. - Unknown'
 ];
 
-// let btn=document.querySelector('.btn');
-// btn.addEventListener('click', displayQuote);
 
 function displayQuote() {
   //create an index of a random number 

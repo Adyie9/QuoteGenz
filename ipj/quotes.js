@@ -11,7 +11,6 @@ let quotes = [
   'One man’s crappy software is another man’s full-time job. - Jessica Gaston',
   'A good programmer is someone who always looks both ways before crossing a one-way street. - Doug Linder',
   'Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. - Martin Golding',
-  'Programming is like sex. One mistake and you have to support it for the rest of your life. - Michael Sinz',
   'Deleted code is debugged code. - Jeff Sickel',
   'Walking on water and developing software from a specification are easy if both are frozen. - Edward V Berard',
   'If debugging is the process of removing software bugs, then programming must be the process of putting them in. - Edsger Dijkstra',
@@ -36,9 +35,12 @@ let quotes = [
   'The art of programming is the skill of controlling complexity. - Unknown'
 ];
 
+// let btn=document.querySelector('.btn');
+// btn.addEventListener('click', displayQuote);
 
 function displayQuote() {
   //create an index of a random number 
+  //convert it into between 0 to length of quotes[]
   let index = Math.floor(Math.random() * quotes.length);
 
   //display the quote of that index
